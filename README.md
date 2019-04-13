@@ -7,6 +7,7 @@ assumes to be running on centos7
 run 
 
 ```
+wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/deploy.sh
 sudo bash deploy.sh
 ```
 
