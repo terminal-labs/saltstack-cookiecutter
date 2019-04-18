@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/terminal-labs/saltstack-cookiecutter.svg?style=svg)](https://circleci.com/gh/terminal-labs/saltstack-cookiecutter)
+
 # Notes
 
 assumes to be running on centos7
