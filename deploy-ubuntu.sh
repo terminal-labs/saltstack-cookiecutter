@@ -17,6 +17,9 @@ mkdir -p /srv/salt/_proxy
 mkdir -p /srv/salt/_modules
 mkdir -p /srv/salt/_grains
 
+mkdir -p /etc/salt
+mkdir -p /etc/salt/pki
+
 cp -r /var/tmp/saltstack-cookiecutter/sample-states/saltstack/states/* /srv/salt
 
 rm -rf /var/tmp/saltstack-cookiecutter
