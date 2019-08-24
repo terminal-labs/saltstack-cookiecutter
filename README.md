@@ -2,15 +2,15 @@
 
 # Notes
 
-assumes to be running on centos7
+assumes to be running on centos7 or ubuntu
 
 # Usage
 
 run 
 
 ```
-wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/deploy.sh
-sudo bash deploy.sh
+wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/deploy-ubuntu.sh
+sudo bash deploy-ubuntu.sh
 ```
 
 
