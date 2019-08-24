@@ -1,4 +1,4 @@
-apt -t install git
+apt -y install git
 
 mkdir -p /var/tmp/saltstack-cookiecutter
 
