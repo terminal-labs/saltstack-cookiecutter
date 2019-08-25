@@ -1,10 +1,12 @@
-apt install -y git wget
+apt install -y wget unzip
 
 mkdir -p /var/tmp/saltstack-cookiecutter
 
 cd /var/tmp/saltstack-cookiecutter
 
-git clone https://github.com/terminal-labs/sample-states.git
+wget https://github.com/terminal-labs/sample-states/archive/master.zip
+unzip master.zip
+
 wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/master
 wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/minion
 
