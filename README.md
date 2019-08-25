@@ -13,8 +13,12 @@ wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/mast
 sudo bash deploy-ubuntu.sh
 ```
 
+```
+wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/deploy-centos.sh
+sudo bash deploy-centos.sh
+```
 
-then running should work fine
+then running this should work fine
 
 ```
 sudo salt '*' state.sls testing.helloworld
