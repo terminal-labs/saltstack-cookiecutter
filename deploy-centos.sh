@@ -1,16 +1,15 @@
-yum -t install git
+yum -t install wget unzip
 
 mkdir -p /var/tmp/saltstack-cookiecutter
 
 cd /var/tmp/saltstack-cookiecutter
 
-git clone git@github.com:terminal-labs/sample-states.git
+wget https://github.com/terminal-labs/sample-states/archive/testing.zip
+unzip testing.zip
+mv sample-states-testing sample-states
+
 wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/master
 wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/minion
-
-cd sample-states
-git checkout testing
-cd ..
 
 mkdir -p /srv
 mkdir -p /srv/pillar
