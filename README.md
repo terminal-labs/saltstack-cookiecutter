@@ -23,5 +23,5 @@ sudo bash deploy-centos.sh
 then running this should work fine
 
 ```
-sudo salt '*' state.sls testing.helloworld
+sudo salt --local '*' state.sls testing.helloworld
 ```
