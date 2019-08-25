@@ -4,7 +4,7 @@ mkdir -p /var/tmp/saltstack-cookiecutter
 
 cd /var/tmp/saltstack-cookiecutter
 
-git clone git@github.com:terminal-labs/sample-states.git
+git https://github.com/terminal-labs/sample-states.git
 wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/master
 wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/minion
 
