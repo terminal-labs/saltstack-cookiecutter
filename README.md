@@ -13,6 +13,8 @@ wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/mast
 sudo bash deploy-ubuntu.sh
 ```
 
+or
+
 ```
 wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/deploy-centos.sh
 sudo bash deploy-centos.sh
