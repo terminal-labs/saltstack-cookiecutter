@@ -5,7 +5,8 @@ mkdir -p /var/tmp/saltstack-cookiecutter
 cd /var/tmp/saltstack-cookiecutter
 
 wget https://github.com/terminal-labs/sample-states/archive/master.zip
-unzip master.zip
+unzip sample-states-master.zip
+mv sample-states-master sample-master
 
 wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/master
 wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/minion
