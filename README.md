@@ -9,14 +9,14 @@ assumes to be running on centos7 or ubuntu
 run 
 
 ```
-wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/deploy-ubuntu.sh
+wget https://raw.githubusercontent.com/terminal-labs/sample-states-installer/master/deploy-ubuntu.sh
 sudo bash deploy-ubuntu.sh
 ```
 
 or
 
 ```
-wget https://raw.githubusercontent.com/terminal-labs/saltstack-cookiecutter/master/deploy-centos.sh
+wget https://raw.githubusercontent.com/terminal-labs/sample-states-installer/master/deploy-centos.sh
 sudo bash deploy-centos.sh
 ```
 
