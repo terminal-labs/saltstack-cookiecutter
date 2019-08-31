@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/terminal-labs/saltstack-cookiecutter.svg?style=svg)](https://circleci.com/gh/terminal-labs/saltstack-cookiecutter)
+[![CircleCI](https://circleci.com/gh/terminal-labs/sample-states-installer.svg?style=svg)](https://circleci.com/gh/terminal-labs/sample-states-installer)
 
 # Notes
 
