@@ -20,7 +20,7 @@ jobs:
           name: Install salt
           command: |
             wget -O bootstrap-salt.sh https://bootstrap.saltstack.com
-            sudo sh bootstrap-salt.sh -P git v2018.3.3 
+            sudo sh bootstrap-salt.sh -f -P git v2018.3.3 
       - run:
           name: Test salt
           command: |
