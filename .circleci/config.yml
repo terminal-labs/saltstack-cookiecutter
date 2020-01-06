@@ -17,6 +17,11 @@ jobs:
           command: |
             wget -O bootstrap-salt.sh https://bootstrap.saltstack.com
             sudo sh bootstrap-salt.sh
+       - run:
+          name: Deploy salt states
+          command: |     
+            wget https://raw.githubusercontent.com/terminal-labs/sample-states-installer/master/deploy-ubuntu.sh
+            sudo bash deploy-ubuntu.sh
       - run:
           name: Test salt
           command: |
