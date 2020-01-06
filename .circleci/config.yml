@@ -20,4 +20,4 @@ jobs:
       - run:
           name: Test salt
           command: |
-            sudo salt --local '*' state.sls testing.helloworld
+            sudo salt-call --local '*' state.sls testing.helloworld
