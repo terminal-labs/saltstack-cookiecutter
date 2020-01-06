@@ -10,6 +10,12 @@ jobs:
       - checkout
             
       - run:
-          name: ci/cd test
+          name: Install salt
           command: |
-            echo "hello world"
+            wget -O bootstrap-salt.sh https://bootstrap.saltstack.com
+            sudo sh bootstrap-salt.sh -P git v2018.3.3
+            
+      - run:
+          name: Test salt
+          command: |
+            sudo salt --local '*' state.sls testing.helloworld
