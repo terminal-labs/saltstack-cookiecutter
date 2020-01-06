@@ -11,16 +11,12 @@ jobs:
       - run:
           name: Mock vagrant
           command: |
-            sudo bash .circleci/mock_vagrant.sh      
-      - run:
-          name: Auth with github
-          command: |
-            sudo bash .circleci/auth_with_github.sh
+            sudo bash .circleci/mock_vagrant.sh
       - run:
           name: Install salt
           command: |
             wget -O bootstrap-salt.sh https://bootstrap.saltstack.com
-            sudo sh bootstrap-salt.sh -P 
+            sudo sh bootstrap-salt.sh -P
       - run:
           name: Test salt
           command: |
