@@ -8,13 +8,19 @@ jobs:
 
     steps:
       - checkout
-            
+      - run:
+          name: Mock vagrant
+          command: |
+            sudo bash .circleci/mock_vagrant.sh      
+      - run:
+          name: Auth with github
+          command: |
+            sudo bash .circleci/auth_with_github.sh
       - run:
           name: Install salt
           command: |
             wget -O bootstrap-salt.sh https://bootstrap.saltstack.com
-            sudo sh bootstrap-salt.sh -P git v2018.3.3
-            
+            sudo sh bootstrap-salt.sh -P git v2018.3.3 
       - run:
           name: Test salt
           command: |
