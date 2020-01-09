@@ -2,7 +2,7 @@
 
 # Notes
 
-assumes to be running on centos7 or ubuntu
+assumes to be running on centos or ubuntu
 
 # Usage
 
