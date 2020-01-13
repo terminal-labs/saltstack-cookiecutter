@@ -1,5 +1,3 @@
-[![CircleCI](https://circleci.com/gh/terminal-labs/sample-states-installer.svg?style=svg)](https://circleci.com/gh/terminal-labs/sample-states-installer)
-
 # Notes
 
 assumes to be running on centos or ubuntu
